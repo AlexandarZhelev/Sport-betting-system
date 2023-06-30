@@ -8,11 +8,15 @@ public class SportsBettingApp {
     }
 
     public static void run() {
-        System.out.println("Welcome to the Sports Betting App!\n");
+        System.out.println("\nWelcome to the Sports Betting App TOTO 1!\n");
+        System.out.println("The string must contain 5 '1's, 3 'X's, and 2 '2's");
+        System.out.println("There should not be more than two consecutive '1's or 'X's\n");
+        System.out.println("Copy the example and paste it as input to the program");
+        System.out.println("Example input 11X11X1X22\n");
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a string of 10 characters (1, 2, and X): ");
+        System.out.print("Enter a string of 10 characters (1, 2, and X) and press ENTER: ");
         String input = scanner.nextLine();
         System.out.println();
 
